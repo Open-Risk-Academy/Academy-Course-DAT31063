@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Borrower Schema 0.1",
+  "description": "Illustrates Composition in JSON Schema",
+  "$id": "corporate_borrower",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "./borrower.schema.json"
+    },
+    {
+      "type": "object",
+      "properties": {
+        "_market_capitalization": {
+          "type": "number"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>borrower.CorporateBorrower</OriginalElement>
+  <nodes>
+    <node x="1.5" y="898.0">borrower.CorporateBorrower</node>
+    <node x="36.0" y="721.0">borrower.Borrower</node>
+    <node x="47.5" y="0.0">typing.Hashable</node>
+    <node x="0.0" y="107.0">object</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="object" target="typing.Hashable" relationship="INTERFACE">
+      <point x="0.0" y="-282.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="borrower.Borrower" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-63.5" />
+      <point x="0.0" y="282.0" />
+    </edge>
+    <edge source="borrower.CorporateBorrower" target="borrower.Borrower" relationship="REALIZATION">
+      <point x="0.0" y="-63.5" />
+      <point x="0.0" y="63.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8038277511961722" showDependencies="false" x="121.5" y="512.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+</Diagram>
+

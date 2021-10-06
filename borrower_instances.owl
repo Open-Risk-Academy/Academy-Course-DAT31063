@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="https://www.openriskmanual.org/example"
+         xmlns="https://www.openriskmanual.org/example#">
+
+<owl:Ontology rdf:about="https://www.openriskmanual.org/example">
+  <owl:versionIRI rdf:resource="https://www.openriskmanual.org/example/1.0"/>
+  <rdfs:label>Borrower Ontology (For Open Risk Academy Course DAT31063, Class Inheritance in Data Science)</rdfs:label>
+</owl:Ontology>
+
+<owl:DatatypeProperty rdf:about="#annual_income">
+  <rdfs:domain rdf:resource="#PrivateBorrower"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+  <rdfs:label>annual income</rdfs:label>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#market_capitalization">
+  <rdfs:domain rdf:resource="#CorporateBorrower"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+  <rdfs:label>market capitalization</rdfs:label>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#name">
+  <rdfs:domain rdf:resource="#Borrower"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:label>name</rdfs:label>
+</owl:DatatypeProperty>
+
+<owl:Class rdf:about="#PrivateBorrower">
+  <rdfs:subClassOf rdf:resource="#Borrower"/>
+  <rdfs:label>Private Borrower</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#CorporateBorrower">
+  <rdfs:subClassOf rdf:resource="#Borrower"/>
+  <owl:disjointWith rdf:resource="#PrivateBorrower"/>
+  <rdfs:label>Corporate Borrower</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#Borrower"/>
+
+<CorporateBorrower rdf:about="#DWEss">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <market_capitalization rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">741985701</market_capitalization>
+</CorporateBorrower>
+
+<CorporateBorrower rdf:about="#QGOJX">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <market_capitalization rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">356759112</market_capitalization>
+</CorporateBorrower>
+
+<CorporateBorrower rdf:about="#5YfXH">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <market_capitalization rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">829376162</market_capitalization>
+</CorporateBorrower>
+
+<CorporateBorrower rdf:about="#ICUxp">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <market_capitalization rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">903694355</market_capitalization>
+</CorporateBorrower>
+
+<CorporateBorrower rdf:about="#ed1Zp">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <market_capitalization rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">278467313</market_capitalization>
+</CorporateBorrower>
+
+<PrivateBorrower rdf:about="#Dwzu9">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <annual_income rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51267</annual_income>
+</PrivateBorrower>
+
+<PrivateBorrower rdf:about="#g4PUC">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <annual_income rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63153</annual_income>
+</PrivateBorrower>
+
+<PrivateBorrower rdf:about="#3vffS">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <annual_income rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5004</annual_income>
+</PrivateBorrower>
+
+<PrivateBorrower rdf:about="#qB8cK">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <annual_income rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58684</annual_income>
+</PrivateBorrower>
+
+<PrivateBorrower rdf:about="#AM2UN">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <annual_income rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98821</annual_income>
+</PrivateBorrower>
+
+
+</rdf:RDF>

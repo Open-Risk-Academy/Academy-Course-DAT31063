@@ -1,0 +1,5 @@
+numpy==1.19.5
+Owlready2==0.34
+Django==3.2.7
+mongoengine==0.23.1
+jsonschema==3.2.0
