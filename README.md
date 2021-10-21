@@ -1,5 +1,5 @@
 # Academy-Course-DAT31063
-Resources for Open Risk Academy Course DAT31063
+Resources for Open Risk Academy Course: "Class Inheritance in Data Science"
 
 ![Data Landscape](./data-landscape.png)
 
@@ -68,8 +68,9 @@ The course material comprises the following:
 If you get stuck on any issue with the course or the Academy:
 
 - If the issue is related to the course topics / material, check in the first instance the Course Forum (Chat)
-- If the issue is related the operation of the Open Risk Academy check first the Academy FAQ. 
-- If the issue persists contact us at info at openrisk.eu
+- Join the course discussion in the [Open Risk Commons](https://www.openriskcommons.org/t/class-inheritance-in-data-science/61)
+- If the issue is related the operation of the Open Risk Academy check first the Academy FAQ
+- If the issue persists contact us at info at openrisk dot eu
 
 ## Academy Course Catalog
 
