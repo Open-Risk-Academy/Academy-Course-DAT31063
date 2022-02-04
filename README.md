@@ -62,6 +62,10 @@ The course material comprises the following:
 
 - The course is self-paced and can be undertaken at any point. Depending on your background knowledge and familiarity with the tools used it might require a commitment of about one or two days total.
 
+#### Tool Requirements
+* A python environment
+* UML Editor (within an IDE, [Umbrello](https://umbrello.kde.org/) etc.)
+
 
 #### Where To Get Help:
 
