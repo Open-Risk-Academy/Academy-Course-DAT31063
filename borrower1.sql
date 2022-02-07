@@ -1,3 +1,4 @@
+-- Single Table Inheritance
 CREATE TABLE Borrower1 (
     Name varchar(255),
     MarketCapitalisation numeric (10,3),

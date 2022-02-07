@@ -1,3 +1,4 @@
+-- Class Table Inheritance
 CREATE TABLE Borrower2 (
     Name varchar(255)
 );

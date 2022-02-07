@@ -1,3 +1,4 @@
+-- PostgreSQL INHERITS implementation of the Borrower hieararchy
 create TABLE borrower (
                         name            text
 );
