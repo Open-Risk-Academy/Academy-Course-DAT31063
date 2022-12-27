@@ -1,10 +1,32 @@
+"""
+   Copyright 2022 Open Risk (www.openriskmanagement.com)
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+"""
+
+# This code accompanies the Open Risk Academy course "Class Inheritance in Data Science"
+# https://www.openriskacademy.com/mod/book/view.php?id=720
+
 import numpy as np
 import json
 
 ascii = list('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789')
 
-
 class Borrower:
+    """Define the Borrower class
+
+    This is the root class of the hierarchy and has only a name property
+    """
     def __init__(self):
         self._name = None
 
@@ -18,6 +40,10 @@ class Borrower:
 
 
 class CorporateBorrower(Borrower):
+    """Define the corporate borrower class
+
+    On top of the name property of the base class, introduce the market cap attribute
+    """
     def __init__(self):
         super().__init__()
         self._market_capitalization = None
@@ -32,6 +58,10 @@ class CorporateBorrower(Borrower):
 
 
 class PrivateBorrower(Borrower):
+    """Define the private borrower class
+
+    On top of the name property of the base class, introduce the annual income attribute
+    """
     def __init__(self):
         super().__init__()
         self._annual_income = None
@@ -46,7 +76,7 @@ class PrivateBorrower(Borrower):
 
 
 def main():
-    print('Object Inheritance in Python')
+    print('Illustrating Object Inheritance in Python')
     print(80 * '=')
 
     clist = []
