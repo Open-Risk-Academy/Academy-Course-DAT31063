@@ -18,8 +18,8 @@
 # https://www.openriskacademy.com/mod/book/view.php?id=720
 
 
-from mongoengine import *
 import numpy as np
+from mongoengine import *
 
 connect('test')
 

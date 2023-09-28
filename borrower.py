@@ -17,16 +17,19 @@
 # This code accompanies the Open Risk Academy course "Class Inheritance in Data Science"
 # https://www.openriskacademy.com/mod/book/view.php?id=720
 
-import numpy as np
 import json
 
+import numpy as np
+
 ascii = list('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789')
+
 
 class Borrower:
     """Define the Borrower class
 
     This is the root class of the hierarchy and has only a name property
     """
+
     def __init__(self):
         self._name = None
 
@@ -44,6 +47,7 @@ class CorporateBorrower(Borrower):
 
     On top of the name property of the base class, introduce the market cap attribute
     """
+
     def __init__(self):
         super().__init__()
         self._market_capitalization = None
@@ -62,6 +66,7 @@ class PrivateBorrower(Borrower):
 
     On top of the name property of the base class, introduce the annual income attribute
     """
+
     def __init__(self):
         super().__init__()
         self._annual_income = None

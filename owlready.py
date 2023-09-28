@@ -18,9 +18,8 @@
 # https://www.openriskacademy.com/mod/book/view.php?id=720
 
 
-from owlready2 import *
-
 import numpy as np
+from owlready2 import *
 
 ascii = list('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789')
 
@@ -30,7 +29,6 @@ for c in onto.classes():
     print(c)
 
 with onto:
-
     for i in range(5):
         alist = np.random.choice(ascii, size=5)
         name = ''.join(alist)

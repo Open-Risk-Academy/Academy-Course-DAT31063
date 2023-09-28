@@ -42,55 +42,55 @@
 
 <owl:Class rdf:about="#Borrower"/>
 
-<CorporateBorrower rdf:about="#DWEss">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <market_capitalization rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">741985701</market_capitalization>
-</CorporateBorrower>
+<owl:NamedIndividual rdf:about="#sty6R">
+  <rdf:type rdf:resource="#CorporateBorrower"/>
+  <market_capitalization rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">687028856</market_capitalization>
+</owl:NamedIndividual>
 
-<CorporateBorrower rdf:about="#QGOJX">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <market_capitalization rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">356759112</market_capitalization>
-</CorporateBorrower>
+<owl:NamedIndividual rdf:about="#2H3sI">
+  <rdf:type rdf:resource="#CorporateBorrower"/>
+  <market_capitalization rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">148590292</market_capitalization>
+</owl:NamedIndividual>
 
-<CorporateBorrower rdf:about="#5YfXH">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <market_capitalization rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">829376162</market_capitalization>
-</CorporateBorrower>
+<owl:NamedIndividual rdf:about="#HW66x">
+  <rdf:type rdf:resource="#CorporateBorrower"/>
+  <market_capitalization rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">571229528</market_capitalization>
+</owl:NamedIndividual>
 
-<CorporateBorrower rdf:about="#ICUxp">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <market_capitalization rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">903694355</market_capitalization>
-</CorporateBorrower>
+<owl:NamedIndividual rdf:about="#SV8Z7">
+  <rdf:type rdf:resource="#CorporateBorrower"/>
+  <market_capitalization rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">157306087</market_capitalization>
+</owl:NamedIndividual>
 
-<CorporateBorrower rdf:about="#ed1Zp">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <market_capitalization rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">278467313</market_capitalization>
-</CorporateBorrower>
+<owl:NamedIndividual rdf:about="#BzzjE">
+  <rdf:type rdf:resource="#CorporateBorrower"/>
+  <market_capitalization rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">508069431</market_capitalization>
+</owl:NamedIndividual>
 
-<PrivateBorrower rdf:about="#Dwzu9">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <annual_income rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51267</annual_income>
-</PrivateBorrower>
+<owl:NamedIndividual rdf:about="#GNYbe">
+  <rdf:type rdf:resource="#PrivateBorrower"/>
+  <annual_income rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89490</annual_income>
+</owl:NamedIndividual>
 
-<PrivateBorrower rdf:about="#g4PUC">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <annual_income rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63153</annual_income>
-</PrivateBorrower>
+<owl:NamedIndividual rdf:about="#LOHIT">
+  <rdf:type rdf:resource="#PrivateBorrower"/>
+  <annual_income rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36532</annual_income>
+</owl:NamedIndividual>
 
-<PrivateBorrower rdf:about="#3vffS">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <annual_income rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5004</annual_income>
-</PrivateBorrower>
+<owl:NamedIndividual rdf:about="#ARls5">
+  <rdf:type rdf:resource="#PrivateBorrower"/>
+  <annual_income rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88080</annual_income>
+</owl:NamedIndividual>
 
-<PrivateBorrower rdf:about="#qB8cK">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <annual_income rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58684</annual_income>
-</PrivateBorrower>
+<owl:NamedIndividual rdf:about="#XH2qv">
+  <rdf:type rdf:resource="#PrivateBorrower"/>
+  <annual_income rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70824</annual_income>
+</owl:NamedIndividual>
 
-<PrivateBorrower rdf:about="#AM2UN">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <annual_income rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98821</annual_income>
-</PrivateBorrower>
+<owl:NamedIndividual rdf:about="#mWiw3">
+  <rdf:type rdf:resource="#PrivateBorrower"/>
+  <annual_income rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31683</annual_income>
+</owl:NamedIndividual>
 
 
 </rdf:RDF>
